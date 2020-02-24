@@ -1,0 +1,227 @@
+﻿
+
+body {
+    background-color: #F0F0F0;
+    color: white;
+    width: 1024px;
+    font-family: Arial;
+}
+
+.Page {
+    background-color: #FE4121;
+    width: 1024px;
+}
+
+/*
+Seccion 1
+----------------------------------------------------------------------------------
+*/
+.Section1 {
+    background-color: #FE4121;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 0px;
+    height: 390px;
+    justify-content: center;
+}
+
+
+.Fila1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+.LogoHeader {
+    border: 0px;
+}
+
+.Ticket {
+    margin: 0px;
+    border: 5px solid gray;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 90px;
+    font-family: Times New Roman;
+}
+
+.Fila2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Date {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.Fila3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Price {
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    width: 350px;
+}
+
+.Button {
+    background-color: solid white;
+    border-color: gray;
+    font-size: 25px;
+    width: 350px;
+}
+
+.Fila4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .Fila4 p {
+        font-size: 30px;
+    }
+
+.linea {
+    border-bottom: solid gray;
+    width: 1024px;
+}
+/*
+Seccion 2
+----------------------------------------------------------------------------------
+*/
+.Section2 {
+    background-color: #FE4121;
+    height: 500px;
+}
+
+.Empleado {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    display: block;
+}
+
+.Instruction {
+    text-align: center;
+    display: block;
+}
+
+/*BARRA STATUS*/
+
+
+ul li {
+    display: table-cell;
+    background: red;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+.Car {
+    float: right;
+    display: inline-block;
+    position: relative;
+    right: 450px;
+    top: 70px;
+}
+
+.Bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.StatusBar {
+    display: table;
+    width: 1000px;
+    font-size: 30px;
+    padding: 0;
+}
+
+.REQUESTED {
+    background-color: skyblue;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.ONTHEWAY {
+    background-color: yellow;
+}
+
+.READY {
+    background-color: green;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+/*
+Seccion 3
+----------------------------------------------------------------------------------
+*/
+.Section3 {
+    background-color: #F0F0F0;
+    border: dashed gray;
+    margin-top: 10px;
+    margin-right: 50px;
+    height: 390px;
+    width: 1016px;
+}
+
+.Fila5 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.Section3 div h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.Section3 div h4 {
+    font-size: 20px;
+    margin-top: 0px;
+    width: 600px;
+    text-align: center;
+}
+
+.Section3 div h1, h4 {
+    color: red;
+}
+
+
+
+
+
+.Fila6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+    .Fila6 p {
+        text-align: right;
+        font-size: 30px;
+        width: 600px;
+        margin-top: -100px;
+        color: gray;
+        /*color: 	#BCAFC1;*/
+    }
+
+.LogoFooter {
+    display: inline-block;
+    position: relative;
+    left: 800px;
+}
